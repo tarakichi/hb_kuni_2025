@@ -9,6 +9,10 @@ function last() {
       Swal.fire({
         title: "よくやった",
         html: "三文字目は<br><strong style='color: white; font-size: 3rem;'>飛</strong>",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "clear.html";
+        }
       });
     }
   });
