@@ -7,7 +7,8 @@ function start() {
             icon: "warning",
             title: "おっとっと。",
             text: "誕生日になってもいないのに開けると思うな",
-            confirmButtonText: "OK",
+            showConfirmButton: false,
+            timer: 1500,
         });
     } else {
         window.location.href = "menu.html"
