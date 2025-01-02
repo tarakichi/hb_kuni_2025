@@ -28,3 +28,6 @@ body {
     width: 9rem;
     margin: 3rem auto;
 }
+.btn:hover {
+    background-color: #292b6b;
+}

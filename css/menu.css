@@ -18,6 +18,9 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
+    font-family: 'Noto Sans JP', serif;
+    font-weight: 100;
+    font-size: 1.5rem;
 }
 .last {
     text-align: center;
