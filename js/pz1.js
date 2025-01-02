@@ -1,3 +1,3 @@
-function answer() {
-    
+function answerPz1() {
+
 }
