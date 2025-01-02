@@ -6,6 +6,7 @@ function answerPz1() {
         if (result.isConfirmed && result.value.toLowerCase() == "fortune") {
             Swal.fire({
                 title: "よくやった",
+                html: "一文字目は<br><strong style='color: white; font-size: 3rem;'>景</strong>",
             });
         }
     });
