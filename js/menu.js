@@ -30,3 +30,18 @@ function last() {
     })
   }
 }
+
+const redirectTo = "index.html";
+const releaseDate = new Date("2025-01-04T00:00:00"); // 開放する日時 (YYYY-MM-DDTHH:mm:ss)
+
+document.addEventListener("DOMContentLoaded", () => {
+  const now = new Date();
+
+  if (now < releaseDate) {
+    alert("まだ開けません。前のページに戻ります。");
+    // リダイレクト
+    window.location.href = redirectTo;
+  } else {
+    console.log("このページにアクセスできます。");
+  }
+});
